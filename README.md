@@ -54,3 +54,23 @@ The application features standard CRUD operations and interacts with the databas
 ```bash
 git clone https://github.com/yourusername/Nodejs_APP.git
 cd Nodejs_APP
+npm install
+
+Database Setup
+Setup your SQL database locally.
+
+Create a database as required by your application.
+
+Create tables and seed data as per your application schema. SQL scripts should be located in the /db directory (Adjust if applicable).
+
+Update .env file with your database connection credentials.
+
+Example .env settings:
+
+Run
+Copy code
+DB_HOST=localhost
+DB_USER=your_username
+DB_PASSWORD=your_password
+DB_DATABASE=your_database_name
+DB_PORT=3306
